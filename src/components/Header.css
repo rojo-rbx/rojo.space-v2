@@ -1,0 +1,33 @@
+.Header {
+  flex: 0 0;
+  background-color: #333;
+  color: #eee;
+}
+
+.HeaderInner {
+  max-width: var(--site-width);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+}
+
+.Logo {
+  margin-right: 2rem;
+}
+
+.Logo > img {
+  height: 2rem;
+}
+
+.Nav {
+  display: flex;
+}
+
+.Nav > a {
+  padding: 1rem;
+}
+
+.ActiveNavLink {
+  font-weight: bold;
+}
