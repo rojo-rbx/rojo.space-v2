@@ -25,6 +25,7 @@ body {
   flex-direction: column;
 
   background-color: #eee;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 :global #app {
