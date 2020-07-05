@@ -163,8 +163,13 @@ async function build({ entry, outDir, initialRoutes, renderPage }) {
     await fs.writeFile(outputPath, rendered);
   }
 
+  console.log("Writing CNAME file for GitHub Pages");
   const cnamePath = path.join(outDir, "CNAME");
   await fs.writeFile(cnamePath, CNAME);
+
+  console.log("Writing .nojekyll file for GitHub Pages");
+  const noJekyllPath = path.join(outDir, ".nojekyll");
+  await fs.writeFile(noJekyllPath, "");
 }
 
 // Simple Promise wrapper around rimraf.
