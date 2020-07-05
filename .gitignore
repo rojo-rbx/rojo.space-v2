@@ -1,0 +1,9 @@
+# Output directories
+/dev
+/dist
+
+# Stuff used by the generator tool
+/.cache
+
+# npm modules
+/node_modules

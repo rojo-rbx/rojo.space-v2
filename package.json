@@ -1,0 +1,27 @@
+{
+  "name": "rojo.space",
+  "version": "2.0.0",
+  "description": "Website for Rojo, a Roblox development tool.",
+  "publish": false,
+  "author": "Lucien Greathouse <me@lpghatguy.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel --out-dir dev src/index.html",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@mdx-js/parcel-plugin-mdx": "^1.6.6",
+    "@mdx-js/react": "^1.6.6",
+    "jsdom": "^16.2.2",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^2.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "rimraf": "^3.0.2"
+  },
+  "dependencies": {}
+}
